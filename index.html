@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Hutang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h2>INFO HUTANG</h2>
+
+        <!-- Form Input -->
+        <div class="form-group">
+            <label for="jumlahHutang">Jumlah Hutang</label>
+            <input type="number" id="jumlahHutang" placeholder="Masukkan jumlah hutang">
+        </div>
+        <div class="form-group">
+            <label for="bunga">Bunga (%)</label>
+            <input type="number" id="bunga" placeholder="Masukkan bunga">
+        </div>
+        <div class="form-group">
+            <label for="mataUang">Mata Uang</label>
+            <select id="mataUang">
+                <option value="IDR">Rupiah (IDR)</option>
+                <option value="USD">Dollar (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="JPY">Yen (JPY)</option>
+            </select>
+        </div>
+
+
+        <div class="form-group">
+            <button onclick="hitungHutang()">COBA</button>
+        </div>
+
+
+        <!-- Hasil -->
+        <div class="form-group">
+            <label>Hasil:</label>
+            <span class="result" id="result">0</span>
+        </div>
+
+    </div>
+
+
+    <!-- Hitung -->
+    <script src="hitung.js"></script>
+</body>
+</html>
