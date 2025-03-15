@@ -13,6 +13,6 @@ Ini adalah code sederhana untuk menghitung hutang bank menggunakan JavaScript.
 
 1. Clone repositori ini:
     ```bash
-    git clone https://github.com/username/js-hitung-hutang-bank.git
+    git clone https://github.com/DimNih/js-hitung-hutang-bank.git
     ```
 2. Buka file `index.html` di browser.
